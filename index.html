@@ -80,15 +80,15 @@
 
                         <div class="hero-stats d-flex gap-4">
                             <div class="stat-item">
-                                <div class="stat-number">3+</div>
+                                <div class="stat-number">2+</div>
                                 <div class="stat-label">Years Experience</div>
                             </div>
                             <div class="stat-item">
-                                <div class="stat-number">50+</div>
+                                <div class="stat-number">15+</div>
                                 <div class="stat-label">Projects</div>
                             </div>
                             <div class="stat-item">
-                                <div class="stat-number">20+</div>
+                                <div class="stat-number">10+</div>
                                 <div class="stat-label">Clients</div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                 <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
                     <div class="hero-image-wrapper">
                         <div class="hero-image">
-                            <img src="rai.jpg" alt="Hero Image" class="img-fluid">
+                            <img src="img/rai.jpg" alt="Hero Image" class="img-fluid">
                         </div>
                         <div class="tech-stack-floating">
                             <div class="tech-item">
@@ -143,98 +143,171 @@
 
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800">
-                    <div class="about-content p-4 rounded-4 bg-white shadow-sm position-relative">
+                    <div class="about-content p-5 rounded-4 bg-white shadow-lg position-relative overflow-hidden">
                         <div class="corner-decoration top-left"></div>
                         <div class="corner-decoration top-right"></div>
                         <div class="corner-decoration bottom-left"></div>
                         <div class="corner-decoration bottom-right"></div>
 
-                        <div class="d-flex align-items-center mb-4">
+                        <!-- Background Pattern -->
+                        <div class="about-bg-pattern"></div>
+
+                        <div class="d-flex align-items-center mb-4" data-aos="fade-right" data-aos-duration="600">
                             <div class="about-icon-wrapper me-4">
                                 <i class="bi bi-code-square"></i>
+                                <div class="icon-glow"></div>
                             </div>
                             <div>
-                                <h3 class="fw-bold mb-2">Full Stack Developer</h3>
-                                <p class="text-muted mb-0">3+ Years of Experience</p>
+                                <h3 class="fw-bold mb-2 text-gradient">Full Stack Developer</h3>
+                                <p class="text-muted mb-0 fw-medium">Mahasiswa Sistem Informasi Semester 4</p>
                             </div>
                         </div>
 
-                        <p class="lead mb-4">Passionate about creating innovative web solutions that combine beautiful
-                            design with powerful functionality. Specialized in modern web technologies and best
-                            practices.</p>
+                        <p class="lead mb-4 text-dark" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                            Mahasiswa aktif semester 4 program studi Sistem Informasi dengan latar
+                            belakang SMK Rekayasa Perangkat Lunak. Berpengalaman dalam pengembangan aplikasi web modern
+                            menggunakan <span class="text-primary fw-bold">Laravel</span>,
+                            <span class="text-info fw-bold">React</span>, dan
+                            <span class="text-success fw-bold">Tailwind</span>.
+                        </p>
 
-                        <div class="about-highlights mb-4">
-                            <div class="highlight-item" data-aos="fade-right" data-aos-duration="600">
-                                <i class="bi bi-check2-circle text-primary"></i>
-                                <span>Clean & Maintainable Code</span>
+                        <!-- Education Section -->
+                        <div class="education-section mb-4" data-aos="fade-up" data-aos-duration="600"
+                            data-aos-delay="200">
+                            <div class="section-header mb-3">
+                                <h5 class="fw-bold mb-0 d-flex align-items-center">
+                                    <div class="section-icon me-3">
+                                        <i class="bi bi-mortarboard"></i>
+                                    </div>
+                                    Pendidikan
+                                </h5>
                             </div>
-                            <div class="highlight-item" data-aos="fade-right" data-aos-duration="600"
-                                data-aos-delay="100">
-                                <i class="bi bi-check2-circle text-primary"></i>
-                                <span>Responsive Design</span>
-                            </div>
-                            <div class="highlight-item" data-aos="fade-right" data-aos-duration="600"
-                                data-aos-delay="200">
-                                <i class="bi bi-check2-circle text-primary"></i>
-                                <span>Performance Optimization</span>
-                            </div>
-                            <div class="highlight-item" data-aos="fade-right" data-aos-duration="600"
-                                data-aos-delay="300">
-                                <i class="bi bi-check2-circle text-primary"></i>
-                                <span>Modern Technologies</span>
+                            <div class="timeline-container">
+                                <div
+                                    class="education-item mb-3 p-3 rounded-3 bg-light border-start border-primary border-4">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="fw-bold mb-1 text-primary">Universitas Bung Karno</h6>
+                                            <p class="text-muted mb-0 small">Sistem Informasi</p>
+                                        </div>
+                                        <span class="badge bg-primary-gradient">2023 - 2027</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="education-item mb-3 p-3 rounded-3 bg-light border-start border-secondary border-4">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="fw-bold mb-1 text-secondary">SMKN 1 Cibinong</h6>
+                                            <p class="text-muted mb-0 small">Rekayasa Perangkat Lunak</p>
+                                        </div>
+                                        <span class="badge bg-secondary-gradient">2020 - 2023</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <a href="#contact" class="btn btn-primary btn-lg">
-                            <i class="bi bi-envelope-paper-heart me-2"></i>Let's Collaborate
-                        </a>
+                        <!-- Experience Section -->
+                        <div class="experience-section mb-4" data-aos="fade-up" data-aos-duration="600"
+                            data-aos-delay="300">
+                            <div class="section-header mb-3">
+                                <h5 class="fw-bold mb-0 d-flex align-items-center">
+                                    <div class="section-icon me-3">
+                                        <i class="bi bi-briefcase"></i>
+                                    </div>
+                                    Pengalaman
+                                </h5>
+                            </div>
+                            <div class="timeline-container">
+                                <div
+                                    class="experience-item mb-3 p-3 rounded-3 bg-light border-start border-info border-4">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="fw-bold mb-1 text-info">Amgala Foundation</h6>
+                                            <p class="text-muted mb-0 small">Sistem manajemen artikel</p>
+                                        </div>
+                                        <span class="badge bg-info-gradient">2025</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="experience-item mb-3 p-3 rounded-3 bg-light border-start border-warning border-4">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="fw-bold mb-1 text-warning">PT Inapsys Informatika</h6>
+                                            <p class="text-muted mb-0 small">Sistem manajemen perpustakaan</p>
+                                        </div>
+                                        <span class="badge bg-warning-gradient">2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                            <a href="#contact" class="btn btn-gradient btn-lg w-100 position-relative overflow-hidden">
+                                <span class="btn-text">
+                                    <i class="bi bi-envelope-paper-heart me-2"></i>Let's Collaborate
+                                </span>
+                                <div class="btn-shine"></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                     <div class="row g-4">
-                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600">
-                            <div class="achievement-card text-center p-4 rounded-4 bg-white shadow-sm">
+                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+                            <div
+                                class="achievement-card text-center p-4 rounded-4 bg-white shadow-lg position-relative overflow-hidden">
+                                <div class="achievement-bg-glow"></div>
                                 <div class="achievement-icon mb-3">
                                     <i class="bi bi-briefcase"></i>
                                 </div>
                                 <div class="achievement-number-wrapper">
-                                    <span class="achievement-number">50+</span>
+                                    <span class="achievement-number text-gradient">15+</span>
                                 </div>
-                                <p class="achievement-text">Projects</p>
+                                <p class="achievement-text fw-medium">Projects</p>
+                                <div class="achievement-pulse"></div>
                             </div>
                         </div>
-                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600">
-                            <div class="achievement-card text-center p-4 rounded-4 bg-white shadow-sm">
+                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+                            <div
+                                class="achievement-card text-center p-4 rounded-4 bg-white shadow-lg position-relative overflow-hidden">
+                                <div class="achievement-bg-glow"></div>
                                 <div class="achievement-icon mb-3">
                                     <i class="bi bi-people"></i>
                                 </div>
                                 <div class="achievement-number-wrapper">
-                                    <span class="achievement-number">20+</span>
+                                    <span class="achievement-number text-gradient">5+</span>
                                 </div>
-                                <p class="achievement-text">Clients</p>
+                                <p class="achievement-text fw-medium">Clients</p>
+                                <div class="achievement-pulse"></div>
                             </div>
                         </div>
-                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600">
-                            <div class="achievement-card text-center p-4 rounded-4 bg-white shadow-sm">
+                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                            <div
+                                class="achievement-card text-center p-4 rounded-4 bg-white shadow-lg position-relative overflow-hidden">
+                                <div class="achievement-bg-glow"></div>
                                 <div class="achievement-icon mb-3">
                                     <i class="bi bi-code-slash"></i>
                                 </div>
                                 <div class="achievement-number-wrapper">
-                                    <span class="achievement-number">15+</span>
+                                    <span class="achievement-number text-gradient">5+</span>
                                 </div>
-                                <p class="achievement-text">Technologies</p>
+                                <p class="achievement-text fw-medium">Technologies</p>
+                                <div class="achievement-pulse"></div>
                             </div>
                         </div>
-                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600">
-                            <div class="achievement-card text-center p-4 rounded-4 bg-white shadow-sm">
+                        <div class="col-6" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">
+                            <div
+                                class="achievement-card text-center p-4 rounded-4 bg-white shadow-lg position-relative overflow-hidden">
+                                <div class="achievement-bg-glow"></div>
                                 <div class="achievement-icon mb-3">
                                     <i class="bi bi-trophy"></i>
                                 </div>
                                 <div class="achievement-number-wrapper">
-                                    <span class="achievement-number">10+</span>
+                                    <span class="achievement-number text-gradient">2+</span>
                                 </div>
-                                <p class="achievement-text">Awards</p>
+                                <p class="achievement-text fw-medium">Years</p>
+                                <div class="achievement-pulse"></div>
                             </div>
                         </div>
                     </div>
@@ -374,8 +447,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="project-card position-relative">
                         <div class="project-image-wrapper">
-                            <img src="/img/kantin-dashboard.png" alt="Kantin Virtual Dashboard"
-                                class="img-fluid"
+                            <img src="/img/kantin-dashboard.png" alt="Kantin Virtual Dashboard" class="img-fluid"
                                 onerror="this.src='https://via.placeholder.com/600x400/D6EFFF/0A2540?text=Kantin+Virtual'">
                             <div class="project-overlay">
                                 <div class="project-overlay-content">
@@ -418,8 +490,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="project-card position-relative">
                         <div class="project-image-wrapper">
-                            <img src="/img/inventory-dashboard.png" alt="Sistem Inventori Dashboard"
-                                class="img-fluid"
+                            <img src="/img/inventory-dashboard.png" alt="Sistem Inventori Dashboard" class="img-fluid"
                                 onerror="this.src='https://via.placeholder.com/600x400/D6EFFF/0A2540?text=Sistem+Inventori'">
                             <div class="project-overlay">
                                 <div class="project-overlay-content">
@@ -585,9 +656,12 @@
                     <h4 class="fw-bold mb-3">Rai Portfolio</h4>
                     <p class="mb-3">Creating innovative web solutions with modern technologies and best practices.</p>
                     <div class="social-links-footer">
-                        <a href="https://www.linkedin.com/in/rai-rakhmat/" class="social-link-footer" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://github.com/bahaskoding" class="social-link-footer" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="https://www.instagram.com/bahaskoding/" class="social-link-footer" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rai-rakhmat/" class="social-link-footer" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/bahaskoding" class="social-link-footer" target="_blank"><i
+                                class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/bahaskoding/" class="social-link-footer" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
                     </div>
                 </div>
 
