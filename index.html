@@ -17,31 +17,30 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#hero">Rai Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skill">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand fw-bold" href="#hero">Rai Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <!-- End Navbar -->
@@ -99,7 +98,7 @@
                 <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
                     <div class="hero-image-wrapper">
                         <div class="hero-image">
-                            <img src="img/rai.jpg" alt="Hero Image" class="img-fluid">
+                            <img src="rai.jpg" alt="Hero Image" class="img-fluid">
                         </div>
                         <div class="tech-stack-floating">
                             <div class="tech-item">
@@ -375,8 +374,9 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="project-card position-relative">
                         <div class="project-image-wrapper">
-                            <img src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg"
-                                alt="Project 1" class="img-fluid">
+                            <img src="/img/kantin-dashboard.png" alt="Kantin Virtual Dashboard"
+                                class="img-fluid"
+                                onerror="this.src='https://via.placeholder.com/600x400/D6EFFF/0A2540?text=Kantin+Virtual'">
                             <div class="project-overlay">
                                 <div class="project-overlay-content">
                                     <i class="bi bi-eye-fill"></i>
@@ -387,15 +387,18 @@
                             <div class="project-header">
                                 <div class="project-type mb-2">
                                     <span class="badge bg-light text-dark"><i
-                                            class="bi bi-cart me-1"></i>E-Commerce</span>
+                                            class="bi bi-shop me-1"></i>Marketplace</span>
                                 </div>
-                                <h4>E-Commerce Website</h4>
-                                <p class="text-muted">A full-stack e-commerce platform built with Laravel and React</p>
+                                <h4>Kantin Virtual - Marketplace Kantin Digital</h4>
+                                <p class="text-muted">Platform marketplace yang menghubungkan pemilik kantin dan
+                                    pelanggan. Fitur pemesanan online, manajemen menu & stok, laporan penjualan
+                                    real-time, dan notifikasi otomatis.</p>
                             </div>
                             <div class="tech-stack mb-3">
-                                <span class="badge bg-primary">Laravel</span>
-                                <span class="badge bg-info">React</span>
-                                <span class="badge bg-success">MySQL</span>
+                                <span class="badge bg-primary">Marketplace</span>
+                                <span class="badge bg-info">Real-time</span>
+                                <span class="badge bg-success">Notifikasi</span>
+                                <span class="badge bg-warning">Multi-lokasi</span>
                             </div>
                             <div class="project-links d-flex gap-2">
                                 <a href="#" class="btn btn-outline-dark btn-sm flex-grow-1">
@@ -415,8 +418,9 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="project-card position-relative">
                         <div class="project-image-wrapper">
-                            <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
-                                alt="Project 2" class="img-fluid">
+                            <img src="/img/inventory-dashboard.png" alt="Sistem Inventori Dashboard"
+                                class="img-fluid"
+                                onerror="this.src='https://via.placeholder.com/600x400/D6EFFF/0A2540?text=Sistem+Inventori'">
                             <div class="project-overlay">
                                 <div class="project-overlay-content">
                                     <i class="bi bi-eye-fill"></i>
@@ -426,17 +430,19 @@
                         <div class="project-content p-4">
                             <div class="project-header">
                                 <div class="project-type mb-2">
-                                    <span class="badge bg-light text-dark"><i class="bi bi-check2-circle me-1"></i>Task
-                                        Management</span>
+                                    <span class="badge bg-light text-dark"><i class="bi bi-database me-1"></i>Inventory
+                                        System</span>
                                 </div>
-                                <h4>Task Management App</h4>
-                                <p class="text-muted">A responsive task management application with real-time updates
-                                </p>
+                                <h4>Sistem Manajemen Inventori</h4>
+                                <p class="text-muted">Sistem manajemen inventori lengkap untuk bisnis teh. Kelola
+                                    produksi, bahan baku, finished goods, scanner resi, live stock calculation, dan
+                                    laporan penjualan terintegrasi.</p>
                             </div>
                             <div class="tech-stack mb-3">
-                                <span class="badge bg-warning">JavaScript</span>
-                                <span class="badge bg-info">Bootstrap</span>
-                                <span class="badge bg-secondary">PostgreSQL</span>
+                                <span class="badge bg-warning">Scanner</span>
+                                <span class="badge bg-info">Live Stock</span>
+                                <span class="badge bg-secondary">Produksi</span>
+                                <span class="badge bg-success">Export Report</span>
                             </div>
                             <div class="project-links d-flex gap-2">
                                 <a href="#" class="btn btn-outline-dark btn-sm flex-grow-1">
@@ -456,8 +462,8 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="project-card position-relative">
                         <div class="project-image-wrapper">
-                            <img src="https://images.pexels.com/photos/7376/startup-photos.jpg" alt="Project 3"
-                                class="img-fluid">
+                            <img src="/img/sinar-luxe.png" alt="Sinar Luxe E-commerce" class="img-fluid"
+                                onerror="this.src='https://via.placeholder.com/600x400/D6EFFF/0A2540?text=Sinar+Luxe'">
                             <div class="project-overlay">
                                 <div class="project-overlay-content">
                                     <i class="bi bi-eye-fill"></i>
@@ -467,16 +473,19 @@
                         <div class="project-content p-4">
                             <div class="project-header">
                                 <div class="project-type mb-2">
-                                    <span class="badge bg-light text-dark"><i
-                                            class="bi bi-bar-chart me-1"></i>Analytics</span>
+                                    <span class="badge bg-light text-dark"><i class="bi bi-gem me-1"></i>Premium
+                                        Fashion</span>
                                 </div>
-                                <h4>Analytics Dashboard</h4>
-                                <p class="text-muted">A modern analytics dashboard with interactive charts</p>
+                                <h4>Sinar Luxe - Premium Fashion E-commerce</h4>
+                                <p class="text-muted">Website e-commerce premium untuk fashion boutique dengan desain
+                                    mewah dan elegan. Menampilkan koleksi eksklusif dengan photography profesional dan
+                                    user experience yang sophisticated.</p>
                             </div>
                             <div class="tech-stack mb-3">
-                                <span class="badge bg-danger">HTML5</span>
-                                <span class="badge bg-info">Tailwind</span>
-                                <span class="badge bg-success">MySQL</span>
+                                <span class="badge bg-danger">E-commerce</span>
+                                <span class="badge bg-info">Premium Design</span>
+                                <span class="badge bg-success">Responsive</span>
+                                <span class="badge bg-warning">Photography</span>
                             </div>
                             <div class="project-links d-flex gap-2">
                                 <a href="#" class="btn btn-outline-dark btn-sm flex-grow-1">
@@ -576,10 +585,9 @@
                     <h4 class="fw-bold mb-3">Rai Portfolio</h4>
                     <p class="mb-3">Creating innovative web solutions with modern technologies and best practices.</p>
                     <div class="social-links-footer">
-                        <a href="#" class="social-link-footer"><i class="bi bi-linkedin"></i></a>
-                        <a href="#" class="social-link-footer"><i class="bi bi-github"></i></a>
-                        <a href="#" class="social-link-footer"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-link-footer"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.linkedin.com/in/rai-rakhmat/" class="social-link-footer" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/bahaskoding" class="social-link-footer" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/bahaskoding/" class="social-link-footer" target="_blank"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
 
@@ -599,15 +607,15 @@
                     <div class="footer-contact-info">
                         <div class="contact-item mb-3">
                             <i class="bi bi-geo-alt-fill me-2"></i>
-                            <span>Jakarta, Indonesia</span>
+                            <span>Bogor, Indonesia</span>
                         </div>
                         <div class="contact-item mb-3">
                             <i class="bi bi-envelope-fill me-2"></i>
-                            <span>your.email@example.com</span>
+                            <span>business.rkhmt@gmail.com</span>
                         </div>
                         <div class="contact-item mb-3">
                             <i class="bi bi-phone-fill me-2"></i>
-                            <span>+62 123 456 789</span>
+                            <span>+62 897 7390 209</span>
                         </div>
                     </div>
                 </div>
